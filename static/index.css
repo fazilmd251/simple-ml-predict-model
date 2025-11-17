@@ -1,0 +1,20 @@
+/* Set Inter as the default font */
+body {
+font-family: 'Inter', sans-serif;
+}
+
+/* Fallback font for Inter */
+@import url('https://www.google.com/search?q=https://fonts.googleapis.com/css2%3Ffamily%3DInter:wght%40400%3B500%3B600%3B700%26display%3Dswap');
+
+/* Custom style for number input arrows /
+/ Hide spin buttons on Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+/* Hide spin buttons on Firefox */
+input[type=number] {
+-moz-appearance: textfield;
+}
