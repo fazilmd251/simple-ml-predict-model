@@ -1,5 +1,5 @@
 [project]
-name = "uber-project"
+name = "simple-ml-predict-model"
 version = "0.1.0"
 description = "This is product is about predicting the price"
 authors = [
